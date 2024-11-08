@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center mt-5">
         <div class="container row mt-5" style="max-width: 1200px;">
             <!-- Main Content -->
             <div class="col-lg-8">
@@ -16,7 +16,7 @@
                                 <p>{{ item.size }}</p>
                                 <p>Rp. {{ item.price }}</p>
                             </div>
-                            <p style="margin-left: 400px;">x1</p>
+                            <p style="margin-left: 400px;">{{ cartItems.length }}</p>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                         </div>
                         <div class="d-flex justify-content-between">
                             <p>Shipping</p>
-                            <p v-for="(item, index) in cartItems" :key="index">Rp. {{ item.shipping }}</p>
+                            <p>Rp. {{ totalShippingCost }}</p>
                         </div>
                         <div class="d-flex justify-content-between mt-4">
                             <h5>Total to pay </h5>
