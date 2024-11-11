@@ -3,7 +3,7 @@
         <div class="hero">
             <div class="container d-flex align-items-center justify-content-sm" style="height: 100vh;">
                 <div class="bg-light p-4 rounded" style="width: 360px;">
-                    <h2 class="text-dark mb-4">Ready to declutter you closet?</h2>
+                    <h2 class="text-dark mb-4">Ready to declutter you clothes?</h2>
                     <a href="#" class="btn btn-lg btn-primary w-100">Shop Now</a>
                 </div>
             </div>
